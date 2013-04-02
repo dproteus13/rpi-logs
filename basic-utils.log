@@ -1,0 +1,208 @@
+Script started on Mon 01 Apr 2013 09:13:00 PM EDT
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m suo[Kdo apt-get git vim emacs
+E: Invalid operation git
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m sudo apt-get git vim emacs[1@i[1@n[1@s[1@t[1@a[1@l[1@l[1@ 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 63%Building dependency tree... 83%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  emacs23 emacs23-bin-common emacs23-common emacsen-common git-man
+  libcurl3-gnutls liberror-perl libfribidi0 libgpm2 liblockfile-bin
+  liblockfile1 libm17n-0 libotf0 m17n-contrib m17n-db rsync vim-runtime
+Suggested packages:
+  emacs23-common-non-dfsg emacs23-el git-daemon-run git-daemon-sysvinit
+  git-doc git-el git-arch git-cvs git-svn git-email git-gui gitk gitweb gpm
+  m17n-docs gawk ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  emacs emacs23 emacs23-bin-common emacs23-common emacsen-common git git-man
+  libcurl3-gnutls liberror-perl libfribidi0 libgpm2 liblockfile-bin
+  liblockfile1 libm17n-0 libotf0 m17n-contrib m17n-db rsync vim vim-runtime
+0 upgraded, 20 newly installed, 0 to remove and 0 not upgraded.
+Need to get 37.7 MB of archives.
+After this operation, 115 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+0% [Working]            0% [Waiting for headers]                        0% [Working]            Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libgpm2 armhf 1.20.4-6 [34.9 kB]
+            0% [1 libgpm2 0 B/34.9 kB 0%] [Waiting for headers]                                                   0% [1 libgpm2 27.3 kB/34.9 kB 78%]                                  0% [Waiting for headers]                        Get:2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main liblockfile-bin armhf 1.09-5 [17.9 kB]
+                        0% [2 liblockfile-bin 0 B/17.9 kB 0%] [Waiting for headers]                                                           0% [Waiting for headers]0% [Waiting for headers]                        Get:3 http://mirrordirector.raspbian.org/raspbian/ wheezy/main liblockfile1 armhf 1.09-5 [14.4 kB]
+                        0% [3 liblockfile1 0 B/14.4 kB 0%] [Waiting for headers]                                                        0% [Waiting for headers]                        Err http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcurl3-gnutls armhf 7.26.0-1
+  404  Not Found
+0% [Waiting for headers]                        0% [Working]            Get:4 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libfribidi0 armhf 0.19.2-3 [35.6 kB]
+            0% [4 libfribidi0 0 B/35.6 kB 0%] [Waiting for headers]                                                       0% [Waiting for headers]0% [Waiting for headers]                        Get:5 http://mirrordirector.raspbian.org/raspbian/ wheezy/main emacsen-common all 2.0.5 [20.9 kB]
+                        0% [5 emacsen-common 0 B/20.9 kB 0%] [Waiting for headers]                                                          0% [Waiting for headers]0% [Waiting for headers]                        Get:6 http://mirrordirector.raspbian.org/raspbian/ wheezy/main emacs23-common all 23.4+1-4 [18.6 MB]
+                        0% [6 emacs23-common 0 B/18.6 MB 0%] [Waiting for headers]                                                          1% [6 emacs23-common 101 kB/18.6 MB 1%]1% [6 emacs23-common 266 kB/18.6 MB 1%]2% [6 emacs23-common 460 kB/18.6 MB 2%]2% [6 emacs23-common 647 kB/18.6 MB 3%]3% [6 emacs23-common 832 kB/18.6 MB 4%]                                       3% [6 emacs23-common 1,032 kB/18.6 MB 6%]                                         Get:7 http://mirrordirector.raspbian.org/raspbian/ wheezy/main emacs all 45.0 [1,494 B]
+                                         3% [6 emacs23-common 1,147 kB/18.6 MB 6%] [7 emacs 0 B/1,494 B 0%]                                                                  3% [6 emacs23-common 1,176 kB/18.6 MB 6%]4% [6 emacs23-common 1,354 kB/18.6 MB 7%]4% [6 emacs23-common 1,566 kB/18.6 MB 8%]                                         5% [6 emacs23-common 1,786 kB/18.6 MB 10%]6% [6 emacs23-common 2,008 kB/18.6 MB 11%]                                          Err http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-runtime all 2:7.3.547-6
+  404  Not Found
+                                          6% [6 emacs23-common 2,124 kB/18.6 MB 11%] [Waiting for headers]                                                                Err http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim armhf 2:7.3.547-6
+  404  Not Found
+                                                                6% [6 emacs23-common 2,224 kB/18.6 MB 12%]8% [6 emacs23-common 2,764 kB/18.6 MB 15%]9% [6 emacs23-common 3,440 kB/18.6 MB 18%]                                          12% [6 emacs23-common 4,240 kB/18.6 MB 23%]14% [6 emacs23-common 5,169 kB/18.6 MB 28%]                                           17% [6 emacs23-common 6,166 kB/18.6 MB 33%]                        970 kB/s 32s19% [6 emacs23-common 7,149 kB/18.6 MB 38%]                        970 kB/s 31s22% [6 emacs23-common 8,132 kB/18.6 MB 44%]                        970 kB/s 30s24% [6 emacs23-common 8,853 kB/18.6 MB 47%]                        970 kB/s 29s26% [6 emacs23-common 9,574 kB/18.6 MB 51%]                        970 kB/s 28s28% [6 emacs23-common 10.6 MB/18.6 MB 57%]                         970 kB/s 27s30% [6 emacs23-common 11.2 MB/18.6 MB 60%]                         970 kB/s 27s32% [6 emacs23-common 12.0 MB/18.6 MB 64%]                         970 kB/s 26s34% [6 emacs23-common 12.8 MB/18.6 MB 69%]                         970 kB/s 25s36% [6 emacs23-common 13.5 MB/18.6 MB 72%]                         970 kB/s 24s39% [6 emacs23-common 14.4 MB/18.6 MB 77%]                         970 kB/s 23s41% [6 emacs23-common 15.3 MB/18.6 MB 82%]                         970 kB/s 23s43% [6 emacs23-common 16.2 MB/18.6 MB 87%]                       1,666 kB/s 12s46% [6 emacs23-common 17.1 MB/18.6 MB 91%]                       1,666 kB/s 12s48% [6 emacs23-common 18.0 MB/18.6 MB 96%]                       1,666 kB/s 11s50% [Working]                                                    1,666 kB/s 11s                                                                               Get:8 http://mirrordirector.raspbian.org/raspbian/ wheezy/main emacs23-bin-common armhf 23.4+1-4 [243 kB]
+50% [8 emacs23-bin-common 0 B/243 kB 0%]                         1,666 kB/s 11s50% [Working]                                                    1,666 kB/s 11s                                                                               Get:9 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libotf0 armhf 0.9.12-2 [49.0 kB]
+50% [9 libotf0 0 B/49.0 kB 0%]                                   1,666 kB/s 11s51% [Working]                                                    1,666 kB/s 11s                                                                               Get:10 http://mirrordirector.raspbian.org/raspbian/ wheezy/main m17n-db all 1.6.3-2 [1,852 kB]
+51% [10 m17n-db 0 B/1,852 kB 0%]                                 1,666 kB/s 11s53% [10 m17n-db 857 kB/1,852 kB 46%]                             1,666 kB/s 10s55% [10 m17n-db 1,840 kB/1,852 kB 99%]                           1,666 kB/s 10s55% [Working]                                                    1,666 kB/s 10s                                                                               Get:11 http://mirrordirector.raspbian.org/raspbian/ wheezy/main m17n-contrib all 1.1.13-2 [545 kB]
+55% [11 m17n-contrib 0 B/545 kB 0%]                              1,666 kB/s 10s56% [11 m17n-contrib 397 kB/545 kB 73%]                           1,666 kB/s 9s56% [11 m17n-contrib 397 kB/545 kB 73%]                           1,666 kB/s 9s56% [11 m17n-contrib 397 kB/545 kB 73%]                           1,666 kB/s 9s57% [Working]                                                     1,666 kB/s 9s                                                                               Get:12 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libm17n-0 armhf 1.6.3-2 [258 kB]
+57% [12 libm17n-0 0 B/258 kB 0%]                                  1,666 kB/s 9s58% [Working]                                                     1,666 kB/s 9s                                                                               Get:13 http://mirrordirector.raspbian.org/raspbian/ wheezy/main emacs23 armhf 23.4+1-4 [3,114 kB]
+58% [13 emacs23 0 B/3,114 kB 0%]                                  1,666 kB/s 9s60% [13 emacs23 844 kB/3,114 kB 27%]                              1,666 kB/s 9s62% [13 emacs23 1,819 kB/3,114 kB 58%]                            1,666 kB/s 8s65% [13 emacs23 2,855 kB/3,114 kB 92%]                           1,300 kB/s 10s66% [Working]                                                     1,300 kB/s 9s                                                                               Get:14 http://mirrordirector.raspbian.org/raspbian/ wheezy/main liberror-perl all 0.17-1 [23.6 kB]
+66% [14 liberror-perl 0 B/23.6 kB 0%]                             1,300 kB/s 9s66% [Working]                                                     1,300 kB/s 9s                                                                               Get:15 http://mirrordirector.raspbian.org/raspbian/ wheezy/main git-man all 1:1.7.10.4-1+wheezy1+rpi1 [1,074 kB]
+66% [15 git-man 0 B/1,074 kB 0%]                                  1,300 kB/s 9s68% [15 git-man 786 kB/1,074 kB 73%]                              1,300 kB/s 9s69% [Working]                                                     1,300 kB/s 9s                                                                               Get:16 http://mirrordirector.raspbian.org/raspbian/ wheezy/main git armhf 1:1.7.10.4-1+wheezy1+rpi1 [5,864 kB]
+69% [16 git 0 B/5,864 kB 0%]                                      1,300 kB/s 9s71% [16 git 852 kB/5,864 kB 15%]                                  1,300 kB/s 8s73% [16 git 1,788 kB/5,864 kB 30%]                                1,300 kB/s 7s76% [16 git 2,773 kB/5,864 kB 47%]                                1,300 kB/s 6s79% [16 git 3,801 kB/5,864 kB 65%]                                1,300 kB/s 6s81% [16 git 4,784 kB/5,864 kB 82%]                                1,300 kB/s 5s84% [16 git 5,786 kB/5,864 kB 99%]                                1,300 kB/s 4s84% [Working]                                                     1,300 kB/s 4s                                                                               Get:17 http://mirrordirector.raspbian.org/raspbian/ wheezy/main rsync armhf 3.0.9-4 [356 kB]
+84% [17 rsync 0 B/356 kB 0%]                                      1,300 kB/s 4s85% [Working]                                                     1,300 kB/s 4s                                                                               Fetched 32.2 MB in 23s (1,386 kB/s)
+Failed to fetch http://mirrordirector.raspbian.org/raspbian/pool/main/c/curl/libcurl3-gnutls_7.26.0-1_armhf.deb  404  Not Found
+Failed to fetch http://mirrordirector.raspbian.org/raspbian/pool/main/v/vim/vim-runtime_7.3.547-6_all.deb  404  Not Found
+Failed to fetch http://mirrordirector.raspbian.org/raspbian/pool/main/v/vim/vim_7.3.547-6_armhf.deb  404  Not Found
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m r[Ka[Ksudo apt-get update
+0% [Working]            0% [Connecting to mirrordirector.raspbian.org] [Connecting to archive.raspberry                                                                               Get:1 http://archive.raspberrypi.org wheezy InRelease [7,737 B]
+                                                                               0% [Waiting for headers] [1 InRelease 0 B/7,737 B 0%]                                                     100% [Waiting for headers]                          Get:2 http://mirrordirector.raspbian.org wheezy InRelease [12.5 kB]
+                          100% [2 InRelease 12.5 kB/12.5 kB 100%]                                       100% [Working]              100% [1 InRelease gpgv 7,737 B]                               100% [Working]              100% [2 InRelease gpgv 12.5 kB] [Waiting for headers]                                                     100% [Waiting for headers]                          Get:3 http://mirrordirector.raspbian.org wheezy/main armhf Packages [7,401 kB]
+                          0% [3 Packages 11.3 kB/7,401 kB 0%] [Waiting for headers]                                                         Get:4 http://archive.raspberrypi.org wheezy/main armhf Packages [6,474 B]
+                                                         1% [3 Packages 11.3 kB/7,401 kB 0%] [4 Packages 6,474 B/6,474 B 100%]                                                                     1% [3 Packages 47.5 kB/7,401 kB 1%]                                   1% [4 Packages gzip 0 B] [3 Packages 47.5 kB/7,401 kB 1%] [Waiting for headers]                                                                               1% [3 Packages 67.7 kB/7,401 kB 1%] [Waiting for headers]                                                         3% [3 Packages 205 kB/7,401 kB 3%] [Waiting for headers]8% [3 Packages 555 kB/7,401 kB 7%] [Waiting for headers]                                                        Ign http://archive.raspberrypi.org wheezy/main Translation-en_US
+                                                        14% [3 Packages 992 kB/7,401 kB 13%]                                    Ign http://archive.raspberrypi.org wheezy/main Translation-en
+                                    18% [3 Packages 1,292 kB/7,401 kB 17%]29% [3 Packages 2,144 kB/7,401 kB 29%]40% [3 Packages 2,930 kB/7,401 kB 40%]46% [3 Packages 3,389 kB/7,401 kB 46%]53% [3 Packages 3,932 kB/7,401 kB 53%]56% [3 Packages 4,166 kB/7,401 kB 56%]                                      60% [3 Packages 4,414 kB/7,401 kB 60%]                              736 kB/s 4s63% [3 Packages 4,689 kB/7,401 kB 63%]                              736 kB/s 3s67% [3 Packages 4,957 kB/7,401 kB 67%]                              736 kB/s 3s71% [3 Packages 5,233 kB/7,401 kB 71%]                              736 kB/s 2s74% [3 Packages 5,492 kB/7,401 kB 74%]                              736 kB/s 2s78% [3 Packages 5,775 kB/7,401 kB 78%]                              736 kB/s 2s82% [3 Packages 6,040 kB/7,401 kB 82%]                              736 kB/s 1s86% [3 Packages 6,332 kB/7,401 kB 86%]                              736 kB/s 1s90% [3 Packages 6,622 kB/7,401 kB 89%]                              736 kB/s 1s94% [3 Packages 6,964 kB/7,401 kB 94%]                              736 kB/s 0s99% [3 Packages 7,323 kB/7,401 kB 99%]                              736 kB/s 0s100% [Working]                                                      736 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   736 kB/s 0s                                                                               Get:5 http://mirrordirector.raspbian.org wheezy/contrib armhf Packages [23.3 kB]
+100% [3 Packages bzip2 0 B] [5 Packages 0 B/23.3 kB 0%]             736 kB/s 0s100% [3 Packages bzip2 0 B]                                         736 kB/s 0s                                                                               Get:6 http://mirrordirector.raspbian.org wheezy/non-free armhf Packages [48.0 kB]
+99% [3 Packages bzip2 0 B] [6 Packages 0 B/48.0 kB 0%]              736 kB/s 0s100% [3 Packages bzip2 0 B]                                         736 kB/s 0s                                                                               Get:7 http://mirrordirector.raspbian.org wheezy/rpi armhf Packages [14 B]
+100% [3 Packages bzip2 0 B] [7 Packages 0 B/14 B 0%]                736 kB/s 0s100% [3 Packages bzip2 0 B]                                         736 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/contrib Translation-en_US
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/contrib Translation-en
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/main Translation-en_US
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/main Translation-en
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/non-free Translation-en_US
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/non-free Translation-en
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/rpi Translation-en_US
+100% [3 Packages bzip2 0 B] [Waiting for headers]                   494 kB/s 0s                                                                               Ign http://mirrordirector.raspbian.org wheezy/rpi Translation-en
+100% [3 Packages bzip2 0 B]                                         494 kB/s 0s100% [3 Packages bzip2 0 B]                                         494 kB/s 0s100% [3 Packages bzip2 0 B]                                         494 kB/s 0s100% [3 Packages bzip2 0 B]                                         494 kB/s 0s100% [3 Packages bzip2 0 B]                                         494 kB/s 0s                                                                               100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]100% [3 Packages bzip2 0 B]                           100% [Working]              100% [5 Packages bzip2 0 B]                           100% [Working]              100% [6 Packages bzip2 0 B]                           100% [Working]100% [Working]              Fetched 7,499 kB in 56s (133 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 5%Reading package lists... 9%Reading package lists... 13%Reading package lists... 17%Reading package lists... 21%Reading package lists... 24%Reading package lists... 28%Reading package lists... 32%Reading package lists... 36%Reading package lists... 40%Reading package lists... 44%Reading package lists... 48%Reading package lists... 52%Reading package lists... 56%Reading package lists... 60%Reading package lists... 64%Reading package lists... 68%Reading package lists... 71%Reading package lists... 75%Reading package lists... 78%Reading package lists... 81%Reading package lists... 84%Reading package lists... 87%Reading package lists... 90%Reading package lists... 93%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m sudo apt-get updateinstall git vim emacs
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 55%Building dependency tree... 76%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  emacs23 emacs23-bin-common emacs23-common emacsen-common git-man
+  libcurl3-gnutls liberror-perl libfribidi0 libgpm2 liblockfile-bin
+  liblockfile1 libm17n-0 libotf0 m17n-contrib m17n-db rsync vim-common
+  vim-runtime vim-tiny
+Suggested packages:
+  emacs23-common-non-dfsg emacs23-el git-daemon-run git-daemon-sysvinit
+  git-doc git-el git-arch git-cvs git-svn git-email git-gui gitk gitweb gpm
+  m17n-docs gawk ctags vim-doc vim-scripts indent
+The following NEW packages will be installed:
+  emacs emacs23 emacs23-bin-common emacs23-common emacsen-common git git-man
+  libcurl3-gnutls liberror-perl libfribidi0 libgpm2 liblockfile-bin
+  liblockfile1 libm17n-0 libotf0 m17n-contrib m17n-db rsync vim vim-runtime
+The following packages will be upgraded:
+  vim-common vim-tiny
+2 upgraded, 20 newly installed, 0 to remove and 132 not upgraded.
+Need to get 6,030 kB/38.2 MB of archives.
+After this operation, 115 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+0% [Working]0% [Working]            Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcurl3-gnutls armhf 7.26.0-1+wheezy1 [306 kB]
+            0% [1 libcurl3-gnutls 0 B/306 kB 0%] [Waiting for headers]                                                          0% [1 libcurl3-gnutls 25.8 kB/306 kB 8%]3% [1 libcurl3-gnutls 165 kB/306 kB 54%]5% [1 libcurl3-gnutls 286 kB/306 kB 93%]                                        5% [Waiting for headers]                        Get:2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-tiny armhf 2:7.3.547-7 [280 kB]
+                        5% [2 vim-tiny 0 B/280 kB 0%] [Waiting for headers]                                                   7% [2 vim-tiny 103 kB/280 kB 37%]                                 10% [Working]             Get:3 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-common armhf 2:7.3.547-7 [162 kB]
+             10% [3 vim-common 0 B/162 kB 0%]                                12% [Working]             Get:4 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-runtime all 2:7.3.547-7 [4,607 kB]
+             12% [4 vim-runtime 0 B/4,607 kB 0%]                                   19% [4 vim-runtime 412 kB/4,607 kB 9%]                                      26% [4 vim-runtime 848 kB/4,607 kB 18%]                                       33% [4 vim-runtime 1,232 kB/4,607 kB 27%]41% [4 vim-runtime 1,717 kB/4,607 kB 37%]50% [4 vim-runtime 2,286 kB/4,607 kB 50%]62% [4 vim-runtime 2,994 kB/4,607 kB 65%]76% [4 vim-runtime 3,814 kB/4,607 kB 83%]                                         89% [Working]             Get:5 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim armhf 2:7.3.547-7 [674 kB]
+             89% [5 vim 0 B/674 kB 0%]                         100% [Working]                                                      964 kB/s 0s                                                                               Fetched 6,030 kB in 6s (964 kB/s)
+Selecting previously unselected package libgpm2:armhf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59216 files and directories currently installed.)
+Unpacking libgpm2:armhf (from .../libgpm2_1.20.4-6_armhf.deb) ...
+Selecting previously unselected package liblockfile-bin.
+Unpacking liblockfile-bin (from .../liblockfile-bin_1.09-5_armhf.deb) ...
+Selecting previously unselected package liblockfile1:armhf.
+Unpacking liblockfile1:armhf (from .../liblockfile1_1.09-5_armhf.deb) ...
+Selecting previously unselected package libcurl3-gnutls:armhf.
+Unpacking libcurl3-gnutls:armhf (from .../libcurl3-gnutls_7.26.0-1+wheezy1_armhf.deb) ...
+Selecting previously unselected package libfribidi0:armhf.
+Unpacking libfribidi0:armhf (from .../libfribidi0_0.19.2-3_armhf.deb) ...
+Preparing to replace vim-tiny 2:7.3.547-6 (using .../vim-tiny_2%3a7.3.547-7_armhf.deb) ...
+Unpacking replacement vim-tiny ...
+Preparing to replace vim-common 2:7.3.547-6 (using .../vim-common_2%3a7.3.547-7_armhf.deb) ...
+Unpacking replacement vim-common ...
+Selecting previously unselected package emacsen-common.
+Unpacking emacsen-common (from .../emacsen-common_2.0.5_all.deb) ...
+Selecting previously unselected package emacs23-common.
+Unpacking emacs23-common (from .../emacs23-common_23.4+1-4_all.deb) ...
+Selecting previously unselected package emacs23-bin-common.
+Unpacking emacs23-bin-common (from .../emacs23-bin-common_23.4+1-4_armhf.deb) ...
+Selecting previously unselected package libotf0.
+Unpacking libotf0 (from .../libotf0_0.9.12-2_armhf.deb) ...
+Selecting previously unselected package m17n-db.
+Unpacking m17n-db (from .../m17n-db_1.6.3-2_all.deb) ...
+Selecting previously unselected package m17n-contrib.
+Unpacking m17n-contrib (from .../m17n-contrib_1.1.13-2_all.deb) ...
+Selecting previously unselected package libm17n-0.
+Unpacking libm17n-0 (from .../libm17n-0_1.6.3-2_armhf.deb) ...
+Selecting previously unselected package emacs23.
+Unpacking emacs23 (from .../emacs23_23.4+1-4_armhf.deb) ...
+Selecting previously unselected package emacs.
+Unpacking emacs (from .../archives/emacs_45.0_all.deb) ...
+Selecting previously unselected package liberror-perl.
+Unpacking liberror-perl (from .../liberror-perl_0.17-1_all.deb) ...
+Selecting previously unselected package git-man.
+Unpacking git-man (from .../git-man_1%3a1.7.10.4-1+wheezy1+rpi1_all.deb) ...
+Selecting previously unselected package git.
+Unpacking git (from .../git_1%3a1.7.10.4-1+wheezy1+rpi1_armhf.deb) ...
+Selecting previously unselected package rsync.
+Unpacking rsync (from .../rsync_3.0.9-4_armhf.deb) ...
+Selecting previously unselected package vim-runtime.
+Unpacking vim-runtime (from .../vim-runtime_2%3a7.3.547-7_all.deb) ...
+Adding 'diversion of /usr/share/vim/vim73/doc/help.txt to /usr/share/vim/vim73/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim73/doc/tags to /usr/share/vim/vim73/doc/tags.vim-tiny by vim-runtime'
+Selecting previously unselected package vim.
+Unpacking vim (from .../vim_2%3a7.3.547-7_armhf.deb) ...
+Processing triggers for man-db ...
+Processing triggers for mime-support ...
+Processing triggers for install-info ...
+Processing triggers for desktop-file-utils ...
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for menu ...
+Setting up libgpm2:armhf (1.20.4-6) ...
+Setting up liblockfile-bin (1.09-5) ...
+Setting up liblockfile1:armhf (1.09-5) ...
+Setting up libcurl3-gnutls:armhf (7.26.0-1+wheezy1) ...
+Setting up libfribidi0:armhf (0.19.2-3) ...
+Setting up vim-common (2:7.3.547-7) ...
+Setting up vim-tiny (2:7.3.547-7) ...
+Setting up emacsen-common (2.0.5) ...
+Setting up emacs23-common (23.4+1-4) ...
+Setting up emacs23-bin-common (23.4+1-4) ...
+update-alternatives: using /usr/bin/b2m.emacs23 to provide /usr/bin/b2m (b2m) in auto mode
+update-alternatives: using /usr/bin/ctags.emacs23 to provide /usr/bin/ctags (ctags) in auto mode
+update-alternatives: using /usr/bin/ebrowse.emacs23 to provide /usr/bin/ebrowse (ebrowse) in auto mode
+update-alternatives: using /usr/bin/emacsclient.emacs23 to provide /usr/bin/emacsclient (emacsclient) in auto mode
+update-alternatives: using /usr/bin/etags.emacs23 to provide /usr/bin/etags (etags) in auto mode
+update-alternatives: using /usr/bin/grep-changelog.emacs23 to provide /usr/bin/grep-changelog (grep-changelog) in auto mode
+update-alternatives: using /usr/bin/rcs-checkin.emacs23 to provide /usr/bin/rcs-checkin (rcs-checkin) in auto mode
+Setting up libotf0 (0.9.12-2) ...
+Setting up m17n-db (1.6.3-2) ...
+Setting up m17n-contrib (1.1.13-2) ...
+Setting up libm17n-0 (1.6.3-2) ...
+Setting up emacs23 (23.4+1-4) ...
+update-alternatives: using /usr/bin/emacs23-x to provide /usr/bin/emacs (emacs) in auto mode
+Install dictionaries-common for emacs23
+install/dictionaries-common: Byte-compiling for emacsen flavour emacs23
+Wrote /usr/share/emacs23/site-lisp/dictionaries-common/debian-ispell.elc
+Wrote /usr/share/emacs23/site-lisp/dictionaries-common/ispell.elc
+Wrote /usr/share/emacs23/site-lisp/dictionaries-common/flyspell.elc
+Install emacsen-common for emacs23
+emacsen-common: Handling install of emacsen flavor emacs23
+Wrote /etc/emacs23/site-start.d/00debian-vars.elc
+Wrote /usr/share/emacs23/site-lisp/debian-startup.elc
+Setting up emacs (45.0) ...
+Setting up liberror-perl (0.17-1) ...
+Setting up git-man (1:1.7.10.4-1+wheezy1+rpi1) ...
+Setting up git (1:1.7.10.4-1+wheezy1+rpi1) ...
+Setting up rsync (3.0.9-4) ...
+update-rc.d: using dependency based boot sequencing
+Setting up vim-runtime (2:7.3.547-7) ...
+Processing /usr/share/vim/addons/doc
+Setting up vim (2:7.3.547-7) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+Processing triggers for menu ...
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m 
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m 
+]0;pi@raspberrypi: ~[01;32mpi@raspberrypi[00m [01;34m~ $[00m ei[Kxit
+exit
+
+Script done on Mon 01 Apr 2013 09:19:40 PM EDT

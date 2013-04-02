@@ -1,0 +1,162 @@
+Script started on Mon 01 Apr 2013 09:20:45 PM EDT
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m 
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m 
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m sudo apt-get install bluez bluez-compan[Kt blueman[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kspr[K[K[Kapropos hci
+hci: nothing appropriate.
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m sudo apt-get install bluez bluez-compat blueman
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 60%Building dependency tree... 71%Building dependency tree... 84%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  gir1.2-glib-2.0 imagemagick-common libcanberra-gtk3-0
+  libcanberra-gtk3-module libcanberra0 libcap-ng0 libgirepository-1.0-1
+  liblqr-1-0 libmagickcore5 libmagickwand5 libopenobex1
+  libpulse-mainloop-glib0 notification-daemon obex-data-server python-cairo
+  python-dbus python-dbus-dev python-gconf python-gi python-gobject
+  python-gobject-2 python-gtk2 python-notify
+Suggested packages:
+  libcanberra-gtk0 libcanberra-pulse libmagickcore5-extra python-dbus-doc
+  python-dbus-dbg python-gnome2-doc python-gi-cairo python-gobject-2-dbg
+  python-gtk2-doc
+The following NEW packages will be installed:
+  blueman bluez bluez-compat gir1.2-glib-2.0 imagemagick-common
+  libcanberra-gtk3-0 libcanberra-gtk3-module libcanberra0 libcap-ng0
+  libgirepository-1.0-1 liblqr-1-0 libmagickcore5 libmagickwand5 libopenobex1
+  libpulse-mainloop-glib0 notification-daemon obex-data-server python-cairo
+  python-dbus python-dbus-dev python-gconf python-gi python-gobject
+  python-gobject-2 python-gtk2 python-notify
+0 upgraded, 26 newly installed, 0 to remove and 132 not upgraded.
+Need to get 8,030 kB of archives.
+After this operation, 24.1 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+0% [Working]            0% [Connecting to mirrordirector.raspbian.org (89.16.177.202)]                                                              0% [Working]            Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main imagemagick-common all 8:6.7.7.10-5 [128 kB]
+            0% [1 imagemagick-common 0 B/128 kB 0%] [Waiting for headers]                                                             0% [1 imagemagick-common 25.8 kB/128 kB 20%]                                            2% [Waiting for headers]                        Get:2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcanberra0 armhf 0.28-6 [36.6 kB]
+                        2% [2 libcanberra0 0 B/36.6 kB 0%] [Waiting for headers]                                                        2% [2 libcanberra0 20.0 kB/36.6 kB 55%]                                       2% [Waiting for headers]                        Get:3 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcanberra-gtk3-0 armhf 0.28-6 [14.2 kB]
+                        2% [3 libcanberra-gtk3-0 0 B/14.2 kB 0%] [Waiting for headers]                                                              2% [Waiting for headers]                        2% [Working]            Get:4 http://mirrordirector.raspbian.org/raspbian/ wheezy/main liblqr-1-0 armhf 0.4.1-2 [26.6 kB]
+            2% [4 liblqr-1-0 0 B/26.6 kB 0%] [Waiting for headers]                                                      3% [Waiting for headers]3% [Waiting for headers]                        Get:5 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libmagickcore5 armhf 8:6.7.7.10-5 [2,098 kB]
+                        3% [5 libmagickcore5 0 B/2,098 kB 0%] [Waiting for headers]                                                           4% [5 libmagickcore5 123 kB/2,098 kB 6%]                                        6% [5 libmagickcore5 299 kB/2,098 kB 14%]8% [5 libmagickcore5 467 kB/2,098 kB 22%]                                         11% [5 libmagickcore5 643 kB/2,098 kB 31%]13% [5 libmagickcore5 831 kB/2,098 kB 40%]                                          15% [5 libmagickcore5 1,015 kB/2,098 kB 48%]17% [5 libmagickcore5 1,196 kB/2,098 kB 57%]20% [5 libmagickcore5 1,374 kB/2,098 kB 65%]22% [5 libmagickcore5 1,578 kB/2,098 kB 75%]25% [5 libmagickcore5 1,768 kB/2,098 kB 84%]27% [5 libmagickcore5 1,992 kB/2,098 kB 95%]                                            29% [Waiting for headers]                         Get:6 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libmagickwand5 armhf 8:6.7.7.10-5 [513 kB]
+                         29% [6 libmagickwand5 0 B/513 kB 0%] [Waiting for headers]                                                          30% [6 libmagickwand5 74.8 kB/513 kB 15%]                                         33% [6 libmagickwand5 315 kB/513 kB 61%]                                        35% [Waiting for headers]35% [Waiting for headers]                         Get:7 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libpulse-mainloop-glib0 armhf 2.0-6 [24.2 kB]
+                         35% [7 libpulse-mainloop-glib0 0 B/24.2 kB 0%] [Waiting for headers]                                                                    35% [Waiting for headers]                         Get:8 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcap-ng0 armhf 0.6.6-2 [12.3 kB]
+                         35% [8 libcap-ng0 0 B/12.3 kB 0%] [Waiting for headers]                                                       36% [Waiting for headers]                         Get:9 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libgirepository-1.0-1 armhf 1.32.1-1 [96.0 kB]
+                         36% [9 libgirepository-1.0-1 0 B/96.0 kB 0%] [Waiting for headers]                                                                  36% [9 libgirepository-1.0-1 44.4 kB/96.0 kB 46%]                                                 37% [Waiting for headers]                         Get:10 http://mirrordirector.raspbian.org/raspbian/ wheezy/main gir1.2-glib-2.0 armhf 1.32.1-1 [170 kB]
+                         37% [10 gir1.2-glib-2.0 0 B/170 kB 0%] [Waiting for headers]                                                            38% [10 gir1.2-glib-2.0 66.1 kB/170 kB 39%]                                           39% [Waiting for headers]                         Get:11 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-gi armhf 3.2.2-2 [478 kB]
+                         39% [11 python-gi 0 B/478 kB 0%] [Waiting for headers]                                                      39% [11 python-gi 51.6 kB/478 kB 11%]                                     45% [11 python-gi 466 kB/478 kB 97%]                                    45% [Waiting for headers]                         Get:12 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-dbus-dev all 1.1.1-1 [109 kB]
+                         45% [12 python-dbus-dev 0 B/109 kB 0%] [Waiting for headers]                                                            46% [Waiting for headers]46% [Waiting for headers]                         Get:13 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-dbus armhf 1.1.1-1 [245 kB]
+                         46% [13 python-dbus 0 B/245 kB 0%] [Waiting for headers]                                                        48% [13 python-dbus 158 kB/245 kB 64%]                                      49% [Waiting for headers]                         Get:14 http://mirrordirector.raspbian.org/raspbian/ wheezy/main bluez armhf 4.99-2 [895 kB]
+                         49% [14 bluez 0 B/895 kB 0%] [Waiting for headers]                                                  51% [14 bluez 109 kB/895 kB 12%]                                59% [14 bluez 764 kB/895 kB 85%]                                    742 kB/s 4s60% [Working]                                                       742 kB/s 4s                                                                               Get:15 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libopenobex1 armhf 1.5-2 [21.1 kB]
+60% [15 libopenobex1 0 B/21.1 kB 0%]                                742 kB/s 4s61% [Working]                                                       742 kB/s 4s                                                                               Get:16 http://mirrordirector.raspbian.org/raspbian/ wheezy/main obex-data-server armhf 0.4.5-1 [89.0 kB]
+61% [16 obex-data-server 0 B/89.0 kB 0%]                            742 kB/s 4s62% [Working]                                                       742 kB/s 4s                                                                               Get:17 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-cairo armhf 1.8.8-1 [68.6 kB]
+62% [17 python-cairo 0 B/68.6 kB 0%]                                742 kB/s 4s63% [Working]                                                       742 kB/s 4s                                                                               Get:18 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-gobject-2 armhf 2.28.6-10 [475 kB]
+63% [18 python-gobject-2 0 B/475 kB 0%]                             742 kB/s 4s68% [Working]                                                       742 kB/s 3s                                                                               Get:19 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-gtk2 armhf 2.24.0-3 [1,450 kB]
+68% [19 python-gtk2 0 B/1,450 kB 0%]                                742 kB/s 3s79% [19 python-gtk2 852 kB/1,450 kB 59%]                            742 kB/s 2s87% [Working]                                                       742 kB/s 1s                                                                               Get:20 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-notify armhf 0.1.1-3 [17.9 kB]
+87% [20 python-notify 0 B/17.9 kB 0%]                               742 kB/s 1s87% [Working]                                                       742 kB/s 1s                                                                               Get:21 http://mirrordirector.raspbian.org/raspbian/ wheezy/main notification-daemon armhf 0.7.6-1 [49.0 kB]
+87% [21 notification-daemon 0 B/49.0 kB 0%]                         742 kB/s 1s87% [Working]                                                       742 kB/s 1s                                                                               Get:22 http://mirrordirector.raspbian.org/raspbian/ wheezy/main blueman armhf 1.23-1 [578 kB]
+87% [22 blueman 0 B/578 kB 0%]                                      742 kB/s 1s95% [Working]                                                       742 kB/s 0s                                                                               Get:23 http://mirrordirector.raspbian.org/raspbian/ wheezy/main bluez-compat armhf 4.99-2 [182 kB]
+95% [23 bluez-compat 0 B/182 kB 0%]                                 742 kB/s 0s97% [Working]                                                       742 kB/s 0s                                                                               Get:24 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libcanberra-gtk3-module armhf 0.28-6 [16.1 kB]
+97% [24 libcanberra-gtk3-module 0 B/16.1 kB 0%]                     742 kB/s 0s97% [Working]                                                       742 kB/s 0s                                                                               Get:25 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-gconf armhf 2.28.1+dfsg-1 [75.7 kB]
+97% [25 python-gconf 0 B/75.7 kB 0%]                                742 kB/s 0s98% [Working]                                                       742 kB/s 0s                                                                               Get:26 http://mirrordirector.raspbian.org/raspbian/ wheezy/main python-gobject all 3.2.2-2 [162 kB]
+98% [26 python-gobject 0 B/162 kB 0%]                               742 kB/s 0s100% [Working]                                                      742 kB/s 0s                                                                               Fetched 8,030 kB in 9s (855 kB/s)
+Selecting previously unselected package imagemagick-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 64529 files and directories currently installed.)
+Unpacking imagemagick-common (from .../imagemagick-common_8%3a6.7.7.10-5_all.deb) ...
+Selecting previously unselected package libcanberra0:armhf.
+Unpacking libcanberra0:armhf (from .../libcanberra0_0.28-6_armhf.deb) ...
+Selecting previously unselected package libcanberra-gtk3-0:armhf.
+Unpacking libcanberra-gtk3-0:armhf (from .../libcanberra-gtk3-0_0.28-6_armhf.deb) ...
+Selecting previously unselected package liblqr-1-0:armhf.
+Unpacking liblqr-1-0:armhf (from .../liblqr-1-0_0.4.1-2_armhf.deb) ...
+Selecting previously unselected package libmagickcore5:armhf.
+Unpacking libmagickcore5:armhf (from .../libmagickcore5_8%3a6.7.7.10-5_armhf.deb) ...
+Selecting previously unselected package libmagickwand5:armhf.
+Unpacking libmagickwand5:armhf (from .../libmagickwand5_8%3a6.7.7.10-5_armhf.deb) ...
+Selecting previously unselected package libpulse-mainloop-glib0:armhf.
+Unpacking libpulse-mainloop-glib0:armhf (from .../libpulse-mainloop-glib0_2.0-6_armhf.deb) ...
+Selecting previously unselected package libcap-ng0.
+Unpacking libcap-ng0 (from .../libcap-ng0_0.6.6-2_armhf.deb) ...
+Selecting previously unselected package libgirepository-1.0-1.
+Unpacking libgirepository-1.0-1 (from .../libgirepository-1.0-1_1.32.1-1_armhf.deb) ...
+Selecting previously unselected package gir1.2-glib-2.0.
+Unpacking gir1.2-glib-2.0 (from .../gir1.2-glib-2.0_1.32.1-1_armhf.deb) ...
+Selecting previously unselected package python-gi.
+Unpacking python-gi (from .../python-gi_3.2.2-2_armhf.deb) ...
+Selecting previously unselected package python-dbus-dev.
+Unpacking python-dbus-dev (from .../python-dbus-dev_1.1.1-1_all.deb) ...
+Selecting previously unselected package python-dbus.
+Unpacking python-dbus (from .../python-dbus_1.1.1-1_armhf.deb) ...
+Selecting previously unselected package bluez.
+Unpacking bluez (from .../bluez_4.99-2_armhf.deb) ...
+Selecting previously unselected package libopenobex1.
+Unpacking libopenobex1 (from .../libopenobex1_1.5-2_armhf.deb) ...
+Selecting previously unselected package obex-data-server.
+Unpacking obex-data-server (from .../obex-data-server_0.4.5-1_armhf.deb) ...
+Selecting previously unselected package python-cairo.
+Unpacking python-cairo (from .../python-cairo_1.8.8-1_armhf.deb) ...
+Selecting previously unselected package python-gobject-2.
+Unpacking python-gobject-2 (from .../python-gobject-2_2.28.6-10_armhf.deb) ...
+Selecting previously unselected package python-gtk2.
+Unpacking python-gtk2 (from .../python-gtk2_2.24.0-3_armhf.deb) ...
+Selecting previously unselected package python-notify.
+Unpacking python-notify (from .../python-notify_0.1.1-3_armhf.deb) ...
+Selecting previously unselected package notification-daemon.
+Unpacking notification-daemon (from .../notification-daemon_0.7.6-1_armhf.deb) ...
+Selecting previously unselected package blueman.
+Unpacking blueman (from .../blueman_1.23-1_armhf.deb) ...
+Selecting previously unselected package bluez-compat.
+Unpacking bluez-compat (from .../bluez-compat_4.99-2_armhf.deb) ...
+Selecting previously unselected package libcanberra-gtk3-module:armhf.
+Unpacking libcanberra-gtk3-module:armhf (from .../libcanberra-gtk3-module_0.28-6_armhf.deb) ...
+Selecting previously unselected package python-gconf.
+Unpacking python-gconf (from .../python-gconf_2.28.1+dfsg-1_armhf.deb) ...
+Selecting previously unselected package python-gobject.
+Unpacking python-gobject (from .../python-gobject_3.2.2-2_all.deb) ...
+Processing triggers for man-db ...
+Processing triggers for desktop-file-utils ...
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for gconf2 ...
+Setting up imagemagick-common (8:6.7.7.10-5) ...
+Setting up libcanberra0:armhf (0.28-6) ...
+Setting up libcanberra-gtk3-0:armhf (0.28-6) ...
+Setting up liblqr-1-0:armhf (0.4.1-2) ...
+Setting up libmagickcore5:armhf (8:6.7.7.10-5) ...
+Setting up libmagickwand5:armhf (8:6.7.7.10-5) ...
+Setting up libpulse-mainloop-glib0:armhf (2.0-6) ...
+Setting up libcap-ng0 (0.6.6-2) ...
+Setting up libgirepository-1.0-1 (1.32.1-1) ...
+Setting up gir1.2-glib-2.0 (1.32.1-1) ...
+Setting up python-gi (3.2.2-2) ...
+Setting up python-dbus-dev (1.1.1-1) ...
+Setting up python-dbus (1.1.1-1) ...
+Remove stale byte-compiled files...
+Setting up bluez (4.99-2) ...
+[....] Reloading system message bus config...[?25l7[1G[[32m ok [39;49m8[?12l[?25hdone.
+[....] Starting bluetooth: bluetoothd rfcomm[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+Setting up libopenobex1 (1.5-2) ...
+Setting up obex-data-server (0.4.5-1) ...
+Setting up python-cairo (1.8.8-1) ...
+Setting up python-gobject-2 (2.28.6-10) ...
+Setting up python-gtk2 (2.24.0-3) ...
+Setting up python-notify (0.1.1-3) ...
+Setting up notification-daemon (0.7.6-1) ...
+Setting up blueman (1.23-1) ...
+[....] Reloading system message bus config...[?25l7[1G[[32m ok [39;49m8[?12l[?25hdone.
+Setting up bluez-compat (4.99-2) ...
+Setting up libcanberra-gtk3-module:armhf (0.28-6) ...
+Setting up python-gconf (2.28.1+dfsg-1) ...
+Setting up python-gobject (3.2.2-2) ...
+Processing triggers for python-support ...
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m  [Kcat > /e[Kdev/null
+
+
+At thi s  s point, I bring up the Bluetooth Manager from Start->Preferences.
+
+I   t This opens       adds a BT Icon in the bottom right of the screen, as well a  s opening up a new window .  .  Ignore the d window.
+
+Right-Click on the icon, select Sewt  tup New Deviec  ce.
+
+Turn on your device an d  d make it discoverr able, thn en clik k ck nEXT    Next.  Select the device from the list, then Next g agani  in.
+
+At tih  his point, I can use the devices  , but will lose the  m once   they sleep.  To mka  a  ake them oc  come ab  back automatically, I reob  boot with   a o og  good hardwired mouse  .
+
+]0;pi@raspberrypi: ~/rpi-logs[01;32mpi@raspberrypi[00m [01;34m~/rpi-logs $[00m exit
+
+Script done on Mon 01 Apr 2013 09:34:52 PM EDT
